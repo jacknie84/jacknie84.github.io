@@ -120,7 +120,7 @@ __targets__ 는 다음 정점의 index 값을 의미하고 __inDegree__ 는 진�
 
 var topologySort = [];
 var q = new Queue([graph[0]]);
-var data = Object.assign([], graph.slice(1));
+var data = Object.assign([], graph.slice(1));	// graph 배열에서 첫번째 정점은 큐에 담겨 있으므로 제외하고 복사한다.
 
 for (var i = 0; i < graph.length; i++) {
     if (q.empty()) {
@@ -130,6 +130,7 @@ for (var i = 0; i < graph.length; i++) {
     topologySort.push(frontNode.name);
 
     frontNode.targets
+    	// "index - 1" 을 한 이유는 첫번째 정점을 먼저 큐에 넣고 첫번째 정점을 제외한 배열에 접근하기 때문
         .map(index => data[index - 1])
         .forEach(node => {
             node.inDegree--;
