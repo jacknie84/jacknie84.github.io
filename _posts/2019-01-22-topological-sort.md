@@ -29,6 +29,8 @@ Java 웹개발 4년차 프로그래머다. 최근 기업의 입사 기준의 코
 
 ![예제 그래프](/assets/img/topological-sort-example.png)
 
+
+
 {% highlight javascript %}
 
 var Queue = (function() {
@@ -68,7 +70,7 @@ var graph = [
     }
     , {//1
         "name": "1번노드"
-        , "targets": [4]
+        , "targets": [2]
         , "inDegree": 1
     }
     , {//2
@@ -83,8 +85,8 @@ var graph = [
     }
     , {//4
         "name": "4번노드"
-        , "targets": [2, 5, 8]
-        , "inDegree": 2
+        , "targets": [5, 8]
+        , "inDegree": 1
     }
     , {//5
         "name": "5번노드"
