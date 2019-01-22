@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Topology Sort"
+title:  "Topology Sort"
 image: ''
-date: 2019-01-22 13:05:31
+date:   2019-01-22 13:05:31
 tags: 
 - topology
 description: ''
