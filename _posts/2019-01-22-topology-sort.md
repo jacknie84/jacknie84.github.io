@@ -5,7 +5,7 @@ image: ''
 date: 2019-01-22 13:05:31
 tags: 
 - topology
-description: '위상정렬 공부'
+description: ''
 categories:
 - Learn Algorithm
 ---
