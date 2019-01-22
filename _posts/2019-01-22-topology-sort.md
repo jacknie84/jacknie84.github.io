@@ -10,18 +10,6 @@ categories:
 - Learn Algorithm
 ---
 
----
-layout: post
-title:  "Sharding in MongoDB"
-image: ''
-date:   2016-09-12 00:06:31
-tags:
-- mongodb
-description: ''
-categories:
-- Learn Jekyll 
----
-
 위상정렬 알고리즘
 ================
 
