@@ -1,19 +1,20 @@
 # Site settings
 title: jacknie's blog
-description: "A blog about lorem ipsum ..."
+description: "A blog about what jacknie's studied ..."
 baseurl: "" # for test: remove string '/space-jekyll-template' to ''
-url: "http://victorvoid.github.io/space-jekyll-template/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+url: "http://jacknie84.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
 
 # User settings
-username: lorem ipsum
-user_title: Lorem Ipsum - FrontEnd
-email: lorem.lorem@ipsum.com
+username: jacknie84
+user_title: jacknie - BackEnd
+email: jacknie8407@gmail.com
 twitter_username: loremipsum
-github_username:  loremipsum
-gplus_username:  loremipsum
+github_username:  jacknie84
+gplus_username:  Hyeongi Jeong
 linkedin_public_url: loremipsum # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
 disqus_username: loremipsum
-profile_picture: https://68.media.tumblr.com/93f384858e9273d5b980b418e2f2f4d5/tumblr_o5i2aybLJG1uapsfmo2_250.png
+#profile_picture: https://68.media.tumblr.com/93f384858e9273d5b980b418e2f2f4d5/tumblr_o5i2aybLJG1uapsfmo2_250.png
+profile_picture: https://plus.google.com/u/0/photos/118268150157233715527/albums/profile/6110350591805502418?iso=false
 
 # Build settings
 markdown: kramdown
@@ -47,12 +48,12 @@ links:
       key_trigger: 5
   section_2:
     - title: github
-      url: http://www.github.com/victorvoid
+      url: https://github.com/jacknie84
       new_tab: true
       key_trigger: g
-    - title: twitter
-      url: http://www.twitter.com/victorvoid
-      key_trigger: t
+    - title: facebook
+      url: ""
+      key_trigger: f
     - title: search
       url: ""
       key_trigger: s #WARNING: search only works with "s"
