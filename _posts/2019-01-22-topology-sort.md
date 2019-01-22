@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Topology Sort"
+title:  "Topology Sort(위상정렬)"
 image: ''
 date:   2019-01-22 13:05:31
 tags: 
@@ -10,10 +10,8 @@ categories:
 - Learn Algorithm
 ---
 
-위상정렬 알고리즘
-================
+{% highlight javascript %}
 
-```
 var Queue = (function() {
 
     function Queue(array) {
@@ -120,4 +118,5 @@ for (var i = 0; i < graph.length; i++) {
 }
 
 console.log(topologySort);
-```
+
+{% endhighlight %}
