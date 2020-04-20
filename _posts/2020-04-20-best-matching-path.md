@@ -23,6 +23,7 @@ categories:
 @GetMapping("/spring-webflux/{*path}")
 public String uriVariable(@PathVariable String path) {
     System.out.println(path)
+    ...
 }
 
 {% endhighlight %} 
@@ -50,6 +51,7 @@ __위 코드로 모든 설명이 된다.__
 public String uriVariable(HttpServletRequest request) {
     String path = HttpServletRequestUtils.extractBestMatchingPath(request);
     System.out.println(path)
+    ...
 }
 
 // 전역 메소드(HttpServletRequestUtils.java)
