@@ -59,8 +59,7 @@ public static String extractBestMatchingPath(HttpServletRequest request) {
     ResourceUrlProvider urlProvider = (ResourceUrlProvider) request.getAttribute(ResourceUrlProvider.class.getCanonicalName());
     String pattern = (String) request.getAttribute(HandlerMapping.BEST_MATCHING_PATTERN_ATTRIBUTE);
     String path = (String) request.getAttribute(HandlerMapping.PATH_WITHIN_HANDLER_MAPPING_ATTRIBUTE);
-    String extractedPath = urlProvider.getPathMatcher().extractPathWithinPattern(pattern, path);
-    return cleanSubPath(extractedPath);
+    return urlProvider.getPathMatcher().extractPathWithinPattern(pattern, path);
 }
 
 {% endhighlight %}
